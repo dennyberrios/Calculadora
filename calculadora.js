@@ -1,6 +1,6 @@
-function insert(denny) {
+function insert(params) {
   var numero = document.getElementById("resultado").innerHTML;
-  document.getElementById("resultado").innerHTML = numero + denny;
+  document.getElementById("resultado").innerHTML = numero + params;
 }
 function clean() {       //clean comando para apargar todo conteudo da calculadora.
   
